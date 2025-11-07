@@ -98,7 +98,7 @@ python scripts/run_variant.py --out_dir runs/gamma_0_95 --gamma 0.95
 
 ---
 
-### 8. **Repository Structure**
+###  **Repository Structure**
 > A quick tree view — shows code organization (helps graders).
 
 Example:
