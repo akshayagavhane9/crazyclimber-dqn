@@ -95,7 +95,6 @@ python eval_baseline.py
 python scripts/run_variant.py --out_dir runs/gamma_0_95 --gamma 0.95
 
 
-
 ---
 
 ###  **Repository Structure**
