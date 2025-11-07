@@ -97,7 +97,9 @@ python scripts/run_variant.py --out_dir runs/gamma_0_95 --gamma 0.95
 
 ## 📂 Project Structure
 
+```text
 crazyclimber-dqn/
+│
 ├── src/           # Core implementation
 ├── scripts/       # Experiment and analysis scripts
 ├── runs/          # Saved checkpoints & logs
@@ -105,8 +107,9 @@ crazyclimber-dqn/
 ├── LICENSE
 ├── ATTRIBUTION.md
 └── README.md
-
-
+yaml
+Copy code
+```
 ---
 
 ## 🪪 License & Attribution
