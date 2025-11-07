@@ -93,3 +93,23 @@ python eval_baseline.py
 
 # 6️⃣ Run variants (optional)
 python scripts/run_variant.py --out_dir runs/gamma_0_95 --gamma 0.95
+
+
+## 📂 Project Structure
+
+crazyclimber-dqn/
+├── src/           # Core implementation
+├── scripts/       # Experiment and analysis scripts
+├── runs/          # Saved checkpoints & logs
+├── notebook.ipynb # Main experiment notebook
+├── LICENSE
+├── ATTRIBUTION.md
+└── README.md
+
+
+---
+
+## 🪪 License & Attribution
+MIT License © 2025 **Akshaya Gavhane**  
+Developed for the *LLM Agents & Deep Q-Learning* course at Northeastern University.  
+See [LICENSE](./LICENSE) and [ATTRIBUTION.md](./ATTRIBUTION.md) for details.
