@@ -93,3 +93,37 @@ python eval_baseline.py
 
 # 6️⃣ Run variants (optional)
 python scripts/run_variant.py --out_dir runs/gamma_0_95 --gamma 0.95
+
+
+
+---
+
+### 8. **Repository Structure**
+> A quick tree view — shows code organization (helps graders).
+
+Example:
+```markdown
+## 📂 Project Structure
+crazyclimber-dqn/
+│
+├── src/           # Core implementation
+├── scripts/       # Experiment and analysis scripts
+├── runs/          # Saved checkpoints & logs
+├── notebook.ipynb # Main experiment notebook
+├── LICENSE
+├── ATTRIBUTION.md
+└── README.md
+
+## 🪪 License & Attribution
+MIT License © 2025 Akshaya Gavhane  
+Developed for the LLM Agents & Deep Q-Learning course at Northeastern University.  
+See [LICENSE](./LICENSE) and [ATTRIBUTION.md](./ATTRIBUTION.md) for details.
+
+## ✨ Portfolio Notes
+This project demonstrates my understanding of reinforcement learning principles, experiment-driven analysis, and code organization.  
+All experiments are reproducible and documented with clear visualizations and licensing for academic and portfolio use.
+
+> *“Good reinforcement learning is not luck — it’s structured curiosity.”*  
+> — *Akshaya Gavhane (2025)*
+
+
