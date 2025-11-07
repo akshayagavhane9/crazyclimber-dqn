@@ -94,6 +94,7 @@ python eval_baseline.py
 # 6️⃣ Run variants (optional)
 python scripts/run_variant.py --out_dir runs/gamma_0_95 --gamma 0.95
 ```
+<img width="2904" height="1556" alt="image" src="https://github.com/user-attachments/assets/c249fd5b-df9b-4225-a2c6-0bb6e96bfd70" />
 
 ## 📂 Project Structure
 
