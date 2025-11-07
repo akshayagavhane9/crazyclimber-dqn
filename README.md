@@ -92,7 +92,7 @@ python train_dqn.py
 python eval_baseline.py
 
 # 6️⃣ Run variants (optional)
-python scripts/run_variant.py --out_dir runs/gamma_0_95 --gamma 0.95
+python scripts/run_variant.py --out_dir runs/gamma_0_95 --gamma 0.95```
 
 
 ---
@@ -111,14 +111,31 @@ crazyclimber-dqn/
 ├── notebook.ipynb # Main experiment notebook
 ├── LICENSE
 ├── ATTRIBUTION.md
-└── README.md
+└── README.md```
 
-## 🪪 License & Attribution
+### 📊 **Results Summary**
+| Variant               | Avg Return (last 10 eps) | Avg Steps | Notes               |
+| --------------------- | ------------------------ | --------- | ------------------- |
+| **Baseline (γ=0.99)** | 15,010                   | 2,557     | Stable convergence  |
+| γ = 0.95              | 18,340                   | 2,861     | Faster learning     |
+| γ = 0.999 + lr 5e-5   | 8,220                    | 2,348     | Slower, underfit    |
+| Softmax (τ=1.0)       | 24k–30k                  | 3,000     | Strong exploration  |
+| Fast ε Decay (20 ep)  | 11,380                   | 2,834     | Rapid exploration   |
+| Slow ε Decay (80 ep)  | 12,010                   | 2,367     | More stable returns |
+
+### 🧩 **Visuals Included**
+- Episode Reward Trends
+- Loss Convergence Curves
+- Epsilon Decay Schedules
+- FrameStack Visualization (4 × 84×84 grayscale frames)
+- LLM-Agent Integration Diagram
+
+## 🪪 **License & Attribution**
 MIT License © 2025 Akshaya Gavhane  
 Developed for the LLM Agents & Deep Q-Learning course at Northeastern University.  
 See [LICENSE](./LICENSE) and [ATTRIBUTION.md](./ATTRIBUTION.md) for details.
 
-## ✨ Portfolio Notes
+## ✨ **Portfolio Notes**
 This project demonstrates my understanding of reinforcement learning principles, experiment-driven analysis, and code organization.  
 All experiments are reproducible and documented with clear visualizations and licensing for academic and portfolio use.
 
