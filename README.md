@@ -107,12 +107,11 @@ crazyclimber-dqn/
 ├── LICENSE
 ├── ATTRIBUTION.md
 └── README.md
-yaml
-Copy code
+
 ```
 ---
 
 ## 🪪 License & Attribution
 MIT License © 2025 **Akshaya Gavhane**  
-Developed for the *LLM Agents & Deep Q-Learning* course at Northeastern University.  
+Developed for the *LLM Agents & Deep Q-Learning*
 See [LICENSE](./LICENSE) and [ATTRIBUTION.md](./ATTRIBUTION.md) for details.
