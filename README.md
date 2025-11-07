@@ -123,7 +123,5 @@ See [LICENSE](./LICENSE) and [ATTRIBUTION.md](./ATTRIBUTION.md) for details.
 This project demonstrates my understanding of reinforcement learning principles, experiment-driven analysis, and code organization.  
 All experiments are reproducible and documented with clear visualizations and licensing for academic and portfolio use.
 
-> *“Good reinforcement learning is not luck — it’s structured curiosity.”*  
-> — *Akshaya Gavhane (2025)*
 
 
