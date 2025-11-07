@@ -1,0 +1,22 @@
+{
+  "policy": "random",
+  "episodes": 3,
+  "max_steps": 3000,
+  "totals": [
+    {
+      "episode": 1,
+      "return": 4200.0,
+      "steps": 1613
+    },
+    {
+      "episode": 2,
+      "return": 5900.0,
+      "steps": 2147
+    },
+    {
+      "episode": 3,
+      "return": 8100.0,
+      "steps": 3000
+    }
+  ]
+}

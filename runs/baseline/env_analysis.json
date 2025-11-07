@@ -1,0 +1,64 @@
+{
+  "env_id": "ALE/CrazyClimber-v5",
+  "action_space_n": 9,
+  "actions": [
+    {
+      "id": 0,
+      "meaning": "NOOP"
+    },
+    {
+      "id": 1,
+      "meaning": "UP"
+    },
+    {
+      "id": 2,
+      "meaning": "RIGHT"
+    },
+    {
+      "id": 3,
+      "meaning": "LEFT"
+    },
+    {
+      "id": 4,
+      "meaning": "DOWN"
+    },
+    {
+      "id": 5,
+      "meaning": "UPRIGHT"
+    },
+    {
+      "id": 6,
+      "meaning": "UPLEFT"
+    },
+    {
+      "id": 7,
+      "meaning": "DOWNRIGHT"
+    },
+    {
+      "id": 8,
+      "meaning": "DOWNLEFT"
+    }
+  ],
+  "observation": {
+    "shape": [
+      4,
+      84,
+      84
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 0.6627451181411743,
+    "stack_size": 4,
+    "resolution": [
+      84,
+      84
+    ],
+    "scaled_0_1": true
+  },
+  "notes": {
+    "frameskip_v5": 4,
+    "wrapper_frame_skip": 1,
+    "framestack": 4,
+    "grayscale_84x84": true
+  }
+}

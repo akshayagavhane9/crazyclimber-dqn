@@ -1,0 +1,17 @@
+{
+  "total_episodes": 50,
+  "max_steps_per_ep": 3000,
+  "buffer_capacity": 50000,
+  "warmup_steps": 10000,
+  "batch_size": 64,
+  "gamma": 0.95,
+  "lr": 0.0001,
+  "eps_start": 1.0,
+  "eps_end": 0.05,
+  "eps_decay_episodes": 40,
+  "target_update": "soft",
+  "tau": 0.005,
+  "hard_update_interval": 1000,
+  "seed": 42,
+  "device": "mps"
+}
